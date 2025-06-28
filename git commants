@@ -1,0 +1,51 @@
+command for chking git version
+>git --version
+
+command for listing user
+
+>git config --list
+
+command for adding user name
+
+>git config --global user.name "username"
+
+
+command for adding user email
+
+>git config --global user.email "useremail"
+
+=================================================
+
+command for initializing git in pwd
+>git init
+
+command for listing all untracked files
+>git status
+
+command for adding untracked files to staging area
+>git add -A
+
+command for adding staged files to localrepo
+>git commit -m "commit message"
+
+
+command for adding remote 
+>git remote add name path
+
+chk remote added 
+>git remote -v
+
+command for pushing 
+
+>git push remotename branch(master/main)
+
+command for listing branches
+
+>git branch
+
+>git stash
+
+>git stash pop
+
+>git merge
+>git rebase
